@@ -1,0 +1,224 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Я Легенда</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Я легенда">
+    <meta name="author" content="Владимир Кущенко">
+
+    <meta property="og:title" content="Я легенда">
+    <meta property="og:image" content="images/эверест.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Корпоративные тренинги по ораторскому искусству">
+
+    <!--Икнонка для вкладки для браузера-->
+    <link rel="icon" href="images/эверест.jpg">
+
+</head>
+
+<!--Контент страницы-->
+<body>
+    <!--Шапка профиля -->
+    <header class="header">
+        <div class="header__logo">Я Легенда</div>
+
+        <button class="header__burger" id="burgerBtn" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="header__nav">
+            <a href="#about" class="header__link">О Владимире</a>
+            <a href="#cases" class="header__link">Кейсы и результаты</a>
+            <a href="#programs" class="header__link">Программы тренингов</a>
+            <a href="#process" class="header__link">Как я работаю</a>
+        </nav>
+        
+        <a href="#contact" class="header__cta">Оставить заявку</a>
+    </header>
+
+    <!--Главный экран (горы, заголовки)-->
+    <section id="hero" class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Я Легенда</h1>
+            <p class="hero__subtitle">Корпоративные тренинги по ораторскому искусству</p>
+            <a href="#contact" class="hero__cta">Оставить заявку</a>
+        </div>
+    </section>
+
+    <!---О Владимире-->
+    <section id="about" class="about">
+        <div class="about__photo">
+            <img src="vladimir ruka.jpg" alt="Владимир Кущенко" class="about__img">
+        </div>
+        <div class="about__content">
+            <span class="section-label">О Владимире</span>
+            <h2 class="section-title">Владимир Кущенко</h2>
+            <p class="about__text">Бизнесмен, блогер, тренер по публичным выступлениям для лидеров. С дефектом речи стал тренером по ораторскому искусству для бизнесменов, руководителей и предпринимателей.</p>
+            <p class="about__text">Готовит спикеров для выступления перед президентом страны, выступает со своей программой в ВУЗах, спикер на ТВ «Хабар» и «7 канал».</p>
+            <div class="about__stats">
+                <div class="stat">
+                    <span class="stat__number">10 000+</span>
+                    <span class="stat__label">обученных человек</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">15 000+</span>
+                    <span class="stat__label">часов тренингов</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">10 лет</span>
+                    <span class="stat__label">на сцене</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Кейсы и результаты-->
+    <section id="cases" class="cases">
+        <span class="section-label">Кейсы</span>
+        <h2 class="section-title">Корпоративные тренинги</h2>
+        <div class="cases__grid">
+            <div class="case-card">
+                <h3 class="case-card__title">G Motors Kazakhstan</h3>
+                <p class="case-card__text">Тренинг для компании в Алматы</p>
+            </div>
+            <div class="case-card">
+                <h3 class="case-card__title">Dostyk Plaza</h3>
+                <p class="case-card__text">Выездной тимбилдинг для команды</p>
+            </div>
+            <div class="case-card">
+                <h3 class="case-card__title">BeeOne</h3>
+                <p class="case-card__text">2-дневный тренинг по продажам, Алматы и Стамбул</p>
+            </div>
+            <div class="case-card">
+                <h3 class="case-card__title">High Tech Academy</h3>
+                <p class="case-card__text">Тренинг для преподавательского состава</p>
+            </div>
+            <div class="case-card">
+                <h3 class="case-card__title">Ассоциация Деловых Женщин РК</h3>
+                <p class="case-card__text">3-часовой мастер-класс в Алматы</p>
+            </div>
+        </div>
+    </section>
+
+    <!---Программы тренингов-->
+    <section id="programs" class="programs">
+        <span class="section-label">Программы</span>
+        <h2 class="section-title">Тренинги для вашей компании</h2>
+        <div class="programs__grid">
+            <div class="program-card">
+                <h3 class="program-card__title">Речь лидера</h3>
+                <p class="program-card__text">Развитие навыков публичных выступлений для руководителей</p>
+                <div class="program-card__meta">
+                    <span>12 часов</span>
+                    <span class="program-card__price">2 000 000 ₸</span>
+                </div>
+            </div>
+            <div class="program-card">
+                <h3 class="program-card__title">Есть контакт — есть контракт</h3>
+                <p class="program-card__text">Для менеджеров по работе с клиентами и колл-центров</p>
+                <div class="program-card__meta">
+                    <span>12 часов</span>
+                    <span class="program-card__price">по запросу</span>
+                </div>
+            </div>
+            <div class="program-card">
+                <h3 class="program-card__title">Конфликтология</h3>
+                <p class="program-card__text">Как оценивать и решать споры любого уровня</p>
+                <div class="program-card__meta">
+                    <span>12 часов</span>
+                    <span class="program-card__price">1 500 000 ₸</span>
+                </div>
+            </div>
+            <div class="program-card">
+                <h3 class="program-card__title">Индивидуальный тренинг</h3>
+                <p class="program-card__text">Персональная работа с Владимиром Кущенко</p>
+                <div class="program-card__meta">
+                    <span>2-3 часа</span>
+                    <span class="program-card__price">500 000 ₸</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Как я работаю-->
+    <section id="process" class="process">
+        <span class="section-label">Процесс</span>
+        <h2 class="section-title">Как мы работаем</h2>
+        <div class="process__steps">
+            <div class="step">
+                <span class="step__number">01</span>
+                <p class="step__text">Утверждаем программу под задачи компании</p>
+            </div>
+            <div class="step">
+                <span class="step__number">02</span>
+                <p class="step__text">Составляем договор на оказание услуг</p>
+            </div>
+            <div class="step">
+                <span class="step__number">03</span>
+                <p class="step__text">Согласовываем дату и формат тренинга</p>
+            </div>
+            <div class="step">
+                <span class="step__number">04</span>
+                <p class="step__text">Проводим обучение и выдаём сертификаты</p>
+            </div>
+        </div>
+    </section>
+
+    <!---Логотипы компаний-->
+    <section id="clients" class="clients">
+        <span class="section-label">Нам доверяют</span>
+        <div class="clients__grid">
+            <span class="client-badge">KBTU</span>
+            <span class="client-badge">Beeline</span>
+            <span class="client-badge">Halyk Bank</span>
+            <span class="client-badge">Air Astana</span>
+            <span class="client-badge">Kolesa Group</span>
+            <span class="client-badge">Eurasian Bank</span>
+            <span class="client-badge">Philip Morris</span>
+            <span class="client-badge">AIESEC</span>
+            <span class="client-badge">Naiza FC</span>
+            <span class="client-badge">Almaty Management University</span>
+        </div>
+    </section>
+
+    <!---Форма заявки-->
+    <section id="contact" class="contact">
+        <span class="section-label">Контакты</span>
+        <h2 class="section-title">Обсудим тренинг для вашей компании</h2>
+        <form class="contact__form" id="contactForm">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="text" name="company" placeholder="Компания">
+            <input type="tel" name="phone" placeholder="Телефон" required>
+            <select name="program">
+                <option value="">Выберите программу</option>
+                <option value="Речь лидера">Речь лидера</option>
+                <option value="Есть контакт - есть контракт">Есть контакт — есть контракт</option>
+                <option value="Конфликтология">Конфликтология</option>
+                <option value="Индивидуальный тренинг">Индивидуальный тренинг</option>
+            </select>
+            <textarea name="message" placeholder="Комментарий"></textarea>
+            <button type="submit" class="btn-submit">Оставить заявку</button>
+            <p class="form-success" id="formSuccess">Заявка отправлена! Мы свяжемся с вами.</p>
+        </form>
+    </section>
+
+    <!---Футер-->
+    <footer class="footer">
+        <div class="footer__logo">Я Легенда</div>
+        <div class="footer__contacts">
+            <a href="tel:+77059065757">+7 705 906 57 57</a>
+            <a href="mailto:ya.legenda.soft@gmail.com">ya.legenda.soft@gmail.com</a>
+            <span>пр-т Достык, 180</span>
+        </div>
+        <div class="footer__social">
+            <a href="https://instagram.com/vladimir.kuchshenko" target="_blank">Instagram</a>
+            <a href="https://youtube.com/@vkrus91" target="_blank">YouTube</a>
+        </div>
+        <p class="footer__copy">© 2026 Я Легенда — Владимир Кущенко</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
